@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import subprocess
 import os
-
+# refactored code, removed redundant comments
 
 def clear():
     command = "cls" if os.name == "nt" else "clear"
